@@ -69,7 +69,7 @@
     align-items: center;
     justify-content: space-evenly;
     height: 85.5vh;
-    background-image: url("/storage/img/placeYourImageHere0.png");
+    background-image: url("../storage/img/placeYourImageHere0.png");
     /* background-size: auto;
     background-repeat: no-repeat;
     background-position: center; */
@@ -203,9 +203,10 @@
     width: 100%;
     height: 1500px;
     flex-direction: column;
-    background-image: url("/storage/img/placeYourImageHereFood.png");
+    background-image: url("../storage/img/placeYourImageHereFood.png");
     background-size: cover;
     margin-top: 100px;
+    margin-bottom: 180px;
 }
 
 .caja1{
@@ -238,7 +239,7 @@
 .content2{
     display: flex;
     flex-direction: column;
-    margin-top: 200px;
+    margin-top: 300px;
     width: 77vh;
 }
 
@@ -286,4 +287,72 @@
     display: flex;
     margin-top: 10px;
     width: 450px;
+}
+
+.caja4{
+    display: flex;
+    width: 100%;
+    flex-direction: column ;
+    justify-content: space-between;
+}
+
+.gallery{
+    display: flex;
+    max-width: 100%;
+    height: 140px;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery h1{
+    display: flex;
+    font-size: 38px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    color: #fff;
+}
+
+.caja5{
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.imagenes1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenes1 img{
+    margin: 10px ;
+    width: 380px;
+    border-radius: 0.5vh;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5 );
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.imagenes2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenes2 img{
+    margin: 10px ;
+    width: 380px;
+    border-radius: 0.5vh;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5 );
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.content3{
+    color: #fff;
 }
