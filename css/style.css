@@ -244,7 +244,7 @@
     width: 77vh;
 }
 
-.content h1{
+.content2 h1{
     display: flex;
     font-size: 38px;
     font-family: "Roboto Slab", serif;
@@ -254,7 +254,7 @@
     color: #fff;
 }
 
-.content p{
+.content2 p{
     display: flex;
     margin-top: 20px;
     font-size: 20px;
@@ -293,6 +293,7 @@
 .caja4{
     display: flex;
     width: 100%;
+    margin-top: -80px;
     flex-direction: column ;
     justify-content: space-between;
 }
@@ -356,7 +357,6 @@
 
 
 .caja6{
-    border: 2px solid forestgreen;
     margin-top: 120px;
     width: 100%;
     height: 960px;
@@ -381,23 +381,202 @@
     background: #17171ec2;
 }
 
-.content h1{
-    font-size: 30px;
-    margin-top: 30px;
+.content3 h1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 35px;
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
-    font-weight: 700;
+    font-weight: 800;
     font-style: normal;
     color: #fff;
 }
 
 .content3 p{
+    display: flex;
+    justify-content: center;
+    align-content: center;
     width: 90%;
     font-size: 25px;
     margin-top: 30px;
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
-    font-weight: 700;
+    font-weight: 600;
     font-style: normal;
     color: #fff;
+}
+
+.caja7{
+    display: flex;
+    margin-top: 130px;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.title1{
+    display: flex;
+    color: #fff;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.title1 h1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 40px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    color: #fff;
+}
+
+.Principal1{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.cuadro1{
+    display: flex;
+    flex-direction: column;
+    width: 60vh;
+}
+
+.cuadro1 h1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    color: #e58f00;
+}
+
+.cuadro1 p{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 20px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #fff;
+}
+
+.cuadro1 h2{
+    display: flex;
+    width: 100%;
+    font-size: 20px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    margin-top: 20px;
+    font-weight: 800;
+    font-style: normal;
+    color: #e58f00;
+}
+
+
+
+.cuadro2{
+    display: flex;
+    flex-direction: column;
+    width: 60vh;
+}
+
+.cuadro2 h1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    color: #e58f00;
+}
+
+.cuadro2 p{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 30px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #fff;
+}
+
+.cuadro2 h2{
+    display: flex;
+    width: 100%;
+    font-size: 20px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    margin-top: 20px;
+    font-style: normal;
+    color: #e58f00;
+}
+
+.cuadro3{
+    display: flex;
+    flex-direction: column;
+    width: 60vh;
+}
+
+.cuadro3 h1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    color: #e58f00;
+}
+
+.cuadro3 p{
+    display: flex;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 30px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #fff;
+}
+
+.cuadro3 h2{
+    display: flex;
+    width: 100%;
+    font-size: 20px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    margin-top: 20px;
+    font-weight: 800;
+    font-style: normal;
+    color: #e58f00;
 }
