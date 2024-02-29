@@ -29,30 +29,30 @@
 .inicio{
     display: flex;
     justify-content: space-between;
-    margin-left: 70px;
+    margin-left: 80px;
     gap: 40px;
 }
 
 .img1{
     display: flex;
-    width: 120px;
+    width: 90px;
     height: auto;
-    margin-right: 80px;
+    /* margin-right: 80px; */
     justify-content: center;
 }
 
 .end{
     display: flex;
     justify-content: space-between;
-    margin-right: 70px;
+    margin-right: 120px;
     gap: 40px;
 }
 
 .item{
-    font-size: 20px;
+    font-size: 15px;
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
-    font-weight: 800;
+    font-weight: bold;
     font-style: normal;
     color: #fff;
     text-decoration: none;
@@ -70,10 +70,11 @@
     justify-content: space-evenly;
     height: 85.5vh;
     background-image: url("/storage/img/placeYourImageHere0.png");
-    background-size: auto;
+    /* background-size: auto;
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; 
+    background-position: center; */
+    background-size: cover;
+     
 }
 
 .box2{
@@ -83,9 +84,19 @@
     align-items: center;
     background: #323239e3;
     width: 100%;
-    height: 85.5vh;
+    height: 79vh;
 }
 
+.fig2{
+    display: flex;
+    width: 430px;
+    height: 400px;
+}
+
+.fig2 img{
+    width: 500px;
+    height: 400px;
+}
 .cont1{
     width: 65.6vh;
     height: 45vh;
@@ -93,10 +104,10 @@
 
 .cont1 h1{
     width: 80%;
-    font-size: 70px;
+    font-size: 40px;
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
-    font-weight: 800;
+    font-weight: bold;
     font-style: normal;
     color: #e58f00;
 }
@@ -104,7 +115,7 @@
 .cont1 p{
     margin-top: 20px;
     margin-bottom: 50px;
-    font-size: 20px;
+    font-size: 15px;
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -113,12 +124,12 @@
 }
 
 .cont1 button{
-    padding: 20px;
+    padding: 10px;
     width: 200px;
     border: none;
     background: #e58f00;
     color: #17171e;
-    font-size: 20px;
+    font-size: 15px;
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -138,20 +149,121 @@
     width: 100%;
     height: 1000vh;
     flex-direction: column;
+    background: #17171e;
 }
 
 .Up{
-    border: 2px solid rgb(128, 85, 0);
     display: flex;
     width: 100%;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
 }
 .fig3{
-    border: 1px solid red;
     margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 180px;
+}
+
+.fig3 img{
+    width: 470px;
+    height: 500px;
+    border: none;
 }
 
 .cont2{
-    width: 65.6vh;
-    height: 45vh;
+    margin-left: 42px;
+    margin-right: 80px;
+    width: 600px;
+    height: 47vh;
+}
+
+.cont2 h1{
+    font-size: 50px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    color: #fff;
+}
+
+.cont2 p{
+    margin-top: 45px;
+    width: 450px;
+    font-size: 20px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #fff;
+}
+
+.Principal{
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    height: 1500px;
+    flex-direction: column;
+    background-image: url("/storage/img/placeYourImageHereFood.png");
+    background-size: cover;
+    margin-top: 100px;
+}
+
+.caja1{
+    border: 2px solid forestgreen;
+    display: flex;
+    width: 100%;
+    height: 103.5vh;
+    justify-content: flex-end;
+}
+
+.imag1{
+    border: 2px solid red;
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+
+.caja1 img{
+    width: 400px;
+    height: 700px;
+    position: relative;
+    margin-top: -120px;
+}
+
+.content{
+    border: 2px solid yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300vh;
+}
+
+.content2{
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    width: 77vh;
+}
+
+.content h1{
+    display: flex;
+    font-size: 38px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #fff;
+}
+
+.content p{
+    display: flex;
+    margin-top: 20px;
+    font-size: 17px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #fff;
+    width: 70vh;
 }
