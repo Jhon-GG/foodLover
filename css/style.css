@@ -209,7 +209,6 @@
 }
 
 .caja1{
-    border: 2px solid forestgreen;
     display: flex;
     width: 100%;
     height: 103.5vh;
@@ -217,7 +216,6 @@
 }
 
 .imag1{
-    border: 2px solid red;
     display: flex;
     width: 100%;
     justify-content: end;
@@ -231,7 +229,6 @@
 }
 
 .content{
-    border: 2px solid yellow;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -239,7 +236,6 @@
 }
 
 .content2{
-    border: 2px solid blue;
     display: flex;
     flex-direction: column;
     margin-top: 200px;
@@ -251,7 +247,7 @@
     font-size: 38px;
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
-    font-weight: 700;
+    font-weight: 800;
     font-style: normal;
     color: #fff;
 }
@@ -259,11 +255,35 @@
 .content p{
     display: flex;
     margin-top: 20px;
-    font-size: 17px;
+    font-size: 20px;
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
-    font-weight: 600;
+    font-weight: 700;
     font-style: normal;
     color: #fff;
     width: 70vh;
+}
+
+.caja2{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+
+.caja2 img{
+    display: flex;
+    margin-top: -10px;
+    width: 750px;
+}
+
+.caja3{
+    display: flex;
+    width: 90vh;
+    margin-top: -570px;
+}
+
+.caja3 img{
+    display: flex;
+    margin-top: 10px;
+    width: 450px;
 }
