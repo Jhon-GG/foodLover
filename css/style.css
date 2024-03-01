@@ -69,6 +69,22 @@ body{
     cursor: pointer;
 }
 
+.item10{
+    font-size: 15px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    color: #e58f00;
+    text-decoration: none;
+}
+
+.item10:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
 .main{
     display: flex;
     flex-direction: row;
