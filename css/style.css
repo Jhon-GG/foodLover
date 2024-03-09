@@ -90,7 +90,7 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    height: 85.5vh;
+    height: 105.5vh;
     background-image: url("../storage/img/placeYourImageHere0.png");
     /* background-size: auto;
     background-repeat: no-repeat;
@@ -106,7 +106,7 @@ body{
     align-items: center;
     background: #323239e3;
     width: 100%;
-    height: 79vh;
+    height: 90vh;
 }
 
 .fig2{
@@ -222,7 +222,7 @@ body{
     display: flex;
     max-width: 100%;
     width: 100%;
-    height: 1500px;
+    height: 2000px;
     flex-direction: column;
     background-image: url("../storage/img/placeYourImageHereFood.png");
     background-size: cover;
@@ -244,8 +244,8 @@ body{
 }
 
 .caja1 img{
-    width: 400px;
-    height: 700px;
+    width: 500px;
+    height: 800px;
     position: relative;
     margin-top: -120px;
 }
@@ -294,20 +294,20 @@ body{
 
 .caja2 img{
     display: flex;
-    margin-top: -10px;
-    width: 750px;
+    margin-top: 0px;
+    width: 960px;
 }
 
 .caja3{
     display: flex;
     width: 90vh;
-    margin-top: -570px;
+    margin-top: -700px;
 }
 
 .caja3 img{
     display: flex;
     margin-top: 10px;
-    width: 450px;
+    width: 550px;
 }
 
 .caja4{
@@ -396,7 +396,6 @@ body{
     width: 45%;
     height: 75vh;
     align-items: center;
-    margin-left: 75px;
     color: #fff;
     background: #17171ec2;
 }
